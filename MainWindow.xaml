@@ -1,0 +1,16 @@
+﻿<Window x:Class="Homework5_Lab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework5_Lab1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="text" HorizontalAlignment="Center" Margin="0,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Guess a random number between 0 and 100 (inclusive)" HorizontalAlignment="Center" Margin="0,149,0,0" VerticalAlignment="Top"/>
+        <Button Content="Guess" HorizontalAlignment="Center" Margin="0,226,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label Name="result" Content="" HorizontalAlignment="Center" Margin="0,285,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
